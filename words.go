@@ -14,7 +14,7 @@ var allLetters = "abcdefghijklmnopqrstuvwxyz"
 
 func main() {
 	letters := flag.String("letters", "", "letters to parse")
-	length := flag.Int("length", 0, "a string")
+	length := flag.Int("length", 0, "how long of a word to create")
 
 	flag.Parse()
 	if *length == 0 {
